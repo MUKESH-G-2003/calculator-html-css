@@ -1,0 +1,45 @@
+.Calculator{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: 2px solid aqua;
+    background-color: aqua;
+    gap: 5px 5px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.Calculator h3{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+}
+
+.Calculator input{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+div input{
+    height: 55px;
+    border-radius: 10px;
+}
+
+div button{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+div button:hover{
+    background-color: greenyellow;
+}
+#c{
+    background-color: red;
+    color: aliceblue;
+}
